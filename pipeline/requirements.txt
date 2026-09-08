@@ -1,0 +1,25 @@
+# Minimal placeholders for the local Reel pipeline.
+# Do NOT invent pinned versions here — install what your machine already uses
+# (or pin later after smoke tests on Beast).
+
+# CLI / orchestration (stdlib argparse is enough for the stub)
+# argparse  # stdlib
+
+# Local LLM client (optional helper around Ollama HTTP API)
+# ollama
+
+# TTS — pick one path; install upstream packages on Windows separately
+# kokoro
+# piper-tts
+
+# ASR for captions / SRT
+# faster-whisper
+
+# Media probe helpers (optional; FFmpeg binary is installed system-wide)
+# ffmpeg-python
+
+# Path / config convenience
+# pyyaml
+# python-dotenv
+
+# When you harden the stub, uncomment real deps and pin after verifying on Beast.
